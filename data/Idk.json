@@ -8,11 +8,5 @@
     "percentToQualify": "100",
     "password": "Free To Copy",
     "records": [
-        {
-            "user": "BastianSeb",
-            "link": "https://www.youtube.com/watch?v=MgJeijBGKHU",
-            "percent": 88,
-            "hz": 180
-        }
     ]
 }
