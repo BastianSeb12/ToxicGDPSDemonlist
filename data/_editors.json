@@ -3,5 +3,10 @@
         "role": "List Owner",
         "name": "BastianSeb",
         "link": "google.com"
+    },
+    {
+        "role": "List Editor",
+        "name": "Coda",
+        "link": "google.com"
     }
 ]
