@@ -100,7 +100,30 @@ export default {
                     </template>
                     <h3>Submission Requirements</h3>
                     <p>
-                        just screen record yourself beating the level lol
+                        <strong>Proof:</strong><br>
+                        • Video proof required for all runs.<br>
+                        • Top 1–2: From September 1st, 2025, click sounds are mandatory.<br>
+                        • Top 3+: Click sounds recommended but not required.<br><br>
+
+                        <strong>Video Requirements:</strong><br>
+                        • Must show the full completion (no cuts).<br>
+                        • Must be uploaded to a public platform (e.g., YouTube, Twitch VOD).<br>
+                        • No cheats (speedhacks, macros, tool assistance).<br><br>
+
+                        <strong>Account Ownership:</strong><br>
+                        • Runs must be done on the player’s own account (no account sharing).<br><br>
+
+                        <strong>Verification:</strong><br>
+                        • Runs count only after review by a list team member.<br>
+                        • Suspicious runs may require additional proof or can be rejected.<br><br>
+
+                        <strong>Submissions:</strong><br>
+                        • Submit via the official form/server.<br>
+                        • Include: player name, level name, suggested placement, and video link.<br><br>
+
+                        <strong>Rule Updates:</strong><br>
+                        • Rules may be updated by the list team.<br>
+                        • Changes will be announced at least 2 weeks in advance.
                     </p>
                 </div>
             </div>
@@ -132,11 +155,9 @@ export default {
         },
     },
     async mounted() {
-        // Hide loading spinner
         this.list = await fetchList();
         this.editors = await fetchEditors();
 
-        // Error handling
         if (!this.list) {
             this.errors = [
                 "Failed to load list. Retry in a few minutes or notify list staff.",
@@ -145,9 +166,7 @@ export default {
             this.errors.push(
                 ...this.list
                     .filter(([_, err]) => err)
-                    .map(([_, err]) => {
-                        return `Failed to load level. (${err}.json)`;
-                    })
+                    .map(([_, err]) => `Failed to load level. (${err}.json)`)
             );
             if (!this.editors) {
                 this.errors.push("Failed to load list editors.");
