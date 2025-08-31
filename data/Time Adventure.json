@@ -20,10 +20,12 @@
             "percent": 100,
             "hz": 60
           },
-          {
+        {
             "user": "Coda",
             "link": "https://youtu.be/RUuCQRI18j4",
             "percent": 100,
             "hz": 240
+          }
+
     ]
 }
