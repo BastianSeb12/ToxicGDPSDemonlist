@@ -102,7 +102,7 @@ export default {
                     <p>
                         <strong>Proof:</strong><br>
                         • Video proof required for all runs.<br>
-                        • Top 1–2: From September 1st, 2025, click sounds are mandatory.<br>
+                        • Top 1–3: From September 1st, 2025, click sounds are mandatory.<br>
                         • Top 3+: Click sounds recommended but not required.<br><br>
 
                         <strong>Video Requirements:</strong><br>
