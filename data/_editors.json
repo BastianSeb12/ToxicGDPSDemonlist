@@ -1,11 +1,11 @@
 [
     {
-        "role": "List Owner",
+        "role": "owner",
         "name": "BastianSeb",
         "link": "google.com"
     },
     {
-        "role": "List Editor",
+        "role": "helper",
         "name": "Coda",
         "link": "google.com"
     }
