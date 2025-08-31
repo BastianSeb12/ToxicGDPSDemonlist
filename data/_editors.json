@@ -1,12 +1,12 @@
 [
     {
         "role": "owner",
-        "name": "BastianSeb",
+        "name": "BastianSeb [Owner]",
         "link": "google.com"
     },
     {
         "role": "admin",
-        "name": "Coda",
+        "name": "Coda [Editor]",
         "link": "google.com"
     }
 ]
