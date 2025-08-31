@@ -124,6 +124,15 @@ export default {
                         <strong>Rule Updates:</strong><br>
                         • Rules may be updated by the list team.<br>
                         • Changes will be announced at least 2 weeks in advance.
+                        
+                        Featured: ⭐
+                    
+                        Epic: 🌟
+
+                        Legendary: 🔥
+
+                        Mythic: 🔮
+                        
                     </p>
                 </div>
             </div>
