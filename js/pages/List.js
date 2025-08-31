@@ -99,9 +99,44 @@ export default {
                         </ol>
                     </template>
                     <h3>Submission Requirements</h3>
-                    <p>
-                        just screen record yourself beating the level lol
-                    </p>
+                    <div class="rules">
+                        <h4>Proof</h4>
+                        <ul>
+                            <li>Video proof required for all runs.</li>
+                            <li>Top 1–2: From September 1st, 2025, click sounds are mandatory.</li>
+                            <li>Top 3+: Click sounds recommended but not required.</li>
+                        </ul>
+
+                        <h4>Video Requirements</h4>
+                        <ul>
+                            <li>Must show the full completion (no cuts).</li>
+                            <li>Must be uploaded to a public platform (e.g., YouTube, Twitch VOD).</li>
+                            <li>No cheats (speedhacks, macros, tool assistance).</li>
+                        </ul>
+
+                        <h4>Account Ownership</h4>
+                        <ul>
+                            <li>Runs must be done on the player’s own account (no account sharing).</li>
+                        </ul>
+
+                        <h4>Verification</h4>
+                        <ul>
+                            <li>Runs count only after review by a list team member.</li>
+                            <li>Suspicious runs may require additional proof or can be rejected.</li>
+                        </ul>
+
+                        <h4>Submissions</h4>
+                        <ul>
+                            <li>Submit via the official form/server.</li>
+                            <li>Include: player name, level name, suggested placement, and video link.</li>
+                        </ul>
+
+                        <h4>Rule Updates</h4>
+                        <ul>
+                            <li>Rules may be updated by the list team.</li>
+                            <li>Changes will be announced at least 2 weeks in advance.</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </main>
@@ -146,7 +181,7 @@ export default {
                 ...this.list
                     .filter(([_, err]) => err)
                     .map(([_, err]) => {
-                        return `Failed to load level. (${err}.json)`;
+                        return \`Failed to load level. (\${err}.json)\`;
                     })
             );
             if (!this.editors) {
