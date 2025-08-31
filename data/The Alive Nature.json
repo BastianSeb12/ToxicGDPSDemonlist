@@ -8,5 +8,11 @@
     "percentToQualify": "100",
     "password": "Free To Copy",
     "records": [
+        {
+            "user": "Coda",
+            "link": "https://youtu.be/e0uvT5y9egY",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }
