@@ -13,6 +13,13 @@
             "link": "https://www.youtube.com/watch?v=MgJeijBGKHU",
             "percent": 100,
             "hz": 180
-        }
+        },
+      {
+            "user": "matvii",
+            "link": "https://youtu.be/6UL6_6sf6zM",
+            "percent": 100,
+            "hz": 60
+          }
+
     ]
 }
