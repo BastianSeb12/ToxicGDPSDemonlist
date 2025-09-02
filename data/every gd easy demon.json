@@ -4,7 +4,7 @@
     "author": "Phoneosilly",
     "creators": [],
     "verifier": "Phoneosilly",
-    "verification": "https://youtu.be/hCNVz3k5EdU",
+    "verification": "https://youtu.be/6UL6_6sf6zM",
     "percentToQualify": "100",
     "password": "Free To Copy",
     "records": [
@@ -19,7 +19,11 @@
             "link": "https://youtu.be/6UL6_6sf6zM",
             "percent": 100,
             "hz": 180
-          }
-
+          },
+      {
+            "user": "Coda",
+            "link": "https://youtu.be/0bjkSxNYycs",
+            "percent": 100,
+            "hz": 240
     ]
 }
