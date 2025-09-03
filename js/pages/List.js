@@ -108,7 +108,7 @@ export default {
                         <strong>Video Requirements:</strong><br>
                         • Must show the full completion (no cuts).<br>
                         • Must be uploaded to a public platform (e.g., YouTube, Twitch VOD).<br>
-                        • No cheats (speedhacks, macros, tool assistance).<br><br>
+                        • No cheats (speedhacks, macros, clickbots).<br><br>
 
                         <strong>Account Ownership:</strong><br>
                         • Runs must be done on the player’s own account (no account sharing).<br><br>
