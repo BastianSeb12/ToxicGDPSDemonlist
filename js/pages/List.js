@@ -106,7 +106,7 @@ export default {
                         • Top 4+: Click sounds recommended but not required.<br><br>
 
                         <strong>Video Requirements:</strong><br>
-                        • Must show the full completion (no cuts).<br>
+                        • Must show the full completion With clear clicks. (no cuts).<br>
                         • Must be uploaded to a public platform (e.g., YouTube, Twitch VOD).<br>
                         • No cheats (speedhacks, macros, clickbots).<br><br>
 
@@ -123,7 +123,6 @@ export default {
 
                         <strong>Rule Updates:</strong><br>
                         • Rules may be updated by the list team.<br>
-                        • Changes will be announced at least 2 weeks in advance.
                         
                     </p>
                 </div>
